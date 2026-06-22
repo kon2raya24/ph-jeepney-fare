@@ -19,3 +19,11 @@ npm install ph-jeepney-fare
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-jeepney-fare';
+// See API section for available functions
+```
