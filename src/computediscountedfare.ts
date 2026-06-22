@@ -1,6 +1,11 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * computeDiscountedFare
+ * @param fare
+ * @param discountType
+ */
 export function computeDiscountedFare(fare: number, discountType: "student" | "senior" | "pwd" = "student"): number {
   if (fare === null || fare === undefined) throw new Error("Invalid input");
   const discount = discountType === "student" ? 0.20 : 0.20;
